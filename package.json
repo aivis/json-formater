@@ -1,0 +1,14 @@
+{
+    "name": "json-formater",
+    "version": "0.5",
+    "description": "Node.js JSON data formater / comparator",
+    "preferGlobal": "true",
+    "main": "json-formater.js",
+    "author": "Aivis Silins",
+    "keywords": ["json", "json format", "json comparator", "json formater", "json comparator"],
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/aivis/json-formater.git"
+    },
+    "engines": { "node": "*" }
+}
