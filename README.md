@@ -15,7 +15,7 @@ This module can do this.
 
 Install
 -------
-...
+```npm install json-formater```
 
 Usage
 -----
