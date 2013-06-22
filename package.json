@@ -5,9 +5,17 @@
     "main": "json-formater.js",
     "author": "Aivis Silins",
     "keywords": ["json", "json format", "json comparator", "json formater", "json comparator"],
-    "repository" : {
+    "repository": {
         "type": "git",
         "url": "https://github.com/aivis/json-formater.git"
     },
-    "engines": { "node": "*" }
+    "scripts": {
+        "test": "make test"
+    },
+    "devDependencies": {
+        "mocha": "1.11.0"
+    },
+    "engines": {
+        "node": "*"
+    }
 }
