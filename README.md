@@ -1,6 +1,6 @@
 json-formater
 =============
-### Version: 0.1 ###
+### Version: 0.9.0 ###
 
 Node.js JSON data formater / comparator
 

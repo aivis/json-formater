@@ -1,7 +1,7 @@
 var formater = require('./../json-formater');
 
 describe('simple tests', function(){
-    
+
     it('#1 two identical bool compare', function(done){
 
         formater(false, false, function(isMatch){
@@ -550,4 +550,30 @@ describe('simple tests', function(){
         });
     });
  
+    it('obj and false', function(done){
+
+        formater({key:1}, false, function(isMatch){
+
+            if (isMatch) {
+                throw 'must be false';
+            }
+
+            done();
+            
+        });
+    });
+
+    it('obj and null', function(done){
+
+        formater({key:1}, null, function(isMatch){
+
+            if (isMatch) {
+                throw 'must be false';
+            }
+
+            done();
+            
+        });
+    });
+    
 });

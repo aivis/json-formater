@@ -123,7 +123,7 @@ module.exports = function(expected_param, actual_param, fill_obj_param, callback
     }
     
     //if expected param not an object - simply compare
-    if (typeof expected_param != 'object') {
+    if (typeof expected_param != 'object' || !actual_param) {
         callback_param(expected_param === actual_param);
     //if expected param key count is zero - return true
     } else if (!Object.keys(expected_param).length) {

@@ -1,8 +1,7 @@
 {
     "name": "json-formater",
-    "version": "0.5",
+    "version": "0.9.0",
     "description": "Node.js JSON data formater / comparator",
-    "preferGlobal": "true",
     "main": "json-formater.js",
     "author": "Aivis Silins",
     "keywords": ["json", "json format", "json comparator", "json formater", "json comparator"],
