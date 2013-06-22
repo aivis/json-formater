@@ -1,6 +1,8 @@
 json-formater
 =============
-### Version: 0.9.0 ###
+### Version: 0.9.1 ###
+
+[![Build Status](https://travis-ci.org/aivis/json-formater.png?branch=master)](https://travis-ci.org/aivis/json-formater)
 
 Node.js JSON data formater / comparator
 
